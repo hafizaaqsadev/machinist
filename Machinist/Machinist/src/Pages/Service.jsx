@@ -1,31 +1,30 @@
+// src/Pages/Services.jsx
 import { motion } from "framer-motion";
-
-import facial from "../assets/personalCare/facial.svg";
-// import hairCut from "../assets/personalCare/haircut.svg";
-import hairCut from "../assets/personalCare/hairCut.svg";
-import makeup from "../assets/personalCare/makeup.svg";
-import manipedi from "../assets/personalCare/manipedi.svg";
-import hairtreatment from "../assets/personalCare/hairtreatment.svg";
-import waxing from "../assets/personalCare/waxing.svg";
-import salonpkg from "../assets/personalCare/salonpkg.svg";
-import massage from "../assets/personalCare/massage.svg";
-import mehndi from "../assets/personalCare/mehndi.svg";
-import monthlybeauty from "../assets/personalCare/monthlybeauty.svg";
+import ac from "../assets/service/ac.svg";
+import carpenter from "../assets/service/carpenter.svg";
+import electrician from "../assets/service/electrician.svg";
+import geyser from "../assets/service/geyser.svg";
+import handyman from "../assets/service/handyman.svg";
+import applianceRepair from "../assets/service/applianceRepair.svg";
+import houseInspection from "../assets/service/houseInspection.svg";
+import painter from "../assets/service/painter.svg";
+import pestControl from "../assets/service/pestControl.svg";
+import plumber from "../assets/service/plumber.svg";
 
 const services = [
-  { name: "Facial", image: facial },
-  { name: "HairCut", image: hairCut },
-  { name: "Makeup", image: makeup },
-  { name: "Manipedi", image: manipedi },
-  { name: "Hairtreatment", image: hairtreatment },
-  { name: "Waxing", image: waxing },
-  { name: "Salon Package", image: salonpkg },
-  { name: "Massage", image: massage },
-  { name: "Mehndi", image: mehndi },
-  { name: "Monthly Beauty", image: monthlybeauty },
+  { name: "AC", image: ac },
+  { name: "Carpenter", image: carpenter },
+  { name: "Electrician", image: electrician },
+  { name: "Geyser", image: geyser },
+  { name: "Handyman", image: handyman },
+  { name: "Home Repair", image: applianceRepair },
+  { name: "Inspection", image: houseInspection },
+  { name: "Painter", image: painter },
+  { name: "Pest Control", image: pestControl },
+  { name: "Plumber", image: plumber },
 ];
 
-export default function PersonalCare() {
+export default function Services() {
   return (
     <section className="px-4 sm:px-6 md:px-12 lg:px-20 py-12 space-y-10">
       <motion.h2
@@ -34,7 +33,7 @@ export default function PersonalCare() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
       >
-        Personal Care Services
+        Our Popular Services
       </motion.h2>
 
       {/* Responsive Grid of Services */}
